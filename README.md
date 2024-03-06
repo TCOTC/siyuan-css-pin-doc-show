@@ -1,12 +1,14 @@
-[中文](https://github.com/TCOTC/siyuan-css-hide-doc-tree-icon/blob/main/README_zh_CN.md)
+[中文](https://github.com/TCOTC/siyuan-css-pin-doc-show/blob/main/README_zh_CN.md)
 
-# SiYuan Doc Tree hide icon plugin
+# SiYuan Show pinned document name plugin
 
 ### CSS
 
-```
-/* Hide the icon in front of the document in the document tree CSS https://github.com/TCOTC/siyuan-css-hide-doc-tree-icon */
-.b3-list-item__icon {
-    display: none ;
-   }
+```css
+/* Show pinned document name CSS片段 https://github.com/TCOTC/siyuan-css-pin-doc-show*/
+.layout-tab-bar .item.item--pin .item__text {
+    width: auto;
+    max-width: none;
+    display: flex !important;
+}
 ```

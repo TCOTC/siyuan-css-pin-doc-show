@@ -1,4 +1,6 @@
-/* 在文档树中隐藏文档前的图标 CSS片段 https://github.com/TCOTC/siyuan-css-hide-doc-tree-icon */
-.b3-list-item__icon {
-    display: none ;
-   }
+/* 显示钉住文档名 CSS片段 https://github.com/TCOTC/siyuan-css-pin-doc-show*/
+.layout-tab-bar .item.item--pin .item__text {
+    width: auto;
+    max-width: none;
+    display: flex !important;
+}
