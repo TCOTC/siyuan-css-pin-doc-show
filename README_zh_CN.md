@@ -8,7 +8,9 @@
 /* 显示钉住文档名 CSS片段 https://github.com/TCOTC/siyuan-css-pin-doc-show*/
 .layout-tab-bar .item.item--pin .item__text {
     width: auto;
-    max-width: none;
     display: flex !important;
+}
+.layout-tab-bar .item--pin .item__graphic, .layout-tab-bar .item--pin .item__icon {
+    padding: 4px 0 4px 8px;
 }
 ```
