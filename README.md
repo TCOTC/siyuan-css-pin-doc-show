@@ -14,3 +14,7 @@
     padding: 4px 0 4px 8px;
 }
 ```
+
+### 2024 02 13
+
+Adjusted icon position for pinned document.
