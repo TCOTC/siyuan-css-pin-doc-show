@@ -5,7 +5,7 @@
 ### CSS
 
 ```css
-/* 显示钉住文档名 CSS片段 https://github.com/TCOTC/siyuan-css-pin-doc-show*/
+/* 显示钉住文档名 CSS片段 https://github.com/TCOTC/siyuan-css-pin-doc-show */
 .layout-tab-bar .item.item--pin .item__text {
     width: auto;
     display: flex !important;
